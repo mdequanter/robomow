@@ -19,8 +19,8 @@
 #endif
 
 /* Set these to your desired credentials. */
-const char *ssid = "DINNO";
-const char *password = "geheim123$";
+const char *ssid = "xxxxx";
+const char *password = "xxxxx";
 
 String goDirection = "STOP";
 String oldDirection = "STOP";
