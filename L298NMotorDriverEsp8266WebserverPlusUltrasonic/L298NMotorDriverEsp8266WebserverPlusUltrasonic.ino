@@ -14,13 +14,13 @@
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 #ifndef APSSID
-#define APSSID "ROBOMOW"
-#define APPSK  "geheim123$"
+#define APSSID "xxxxxx"
+#define APPSK  "xxxxxx"
 #endif
 
 /* Set these to your desired credentials. */
-const char *ssid = "DINNO";
-const char *password = "geheim123$";
+const char *ssid = "xxxxxx";
+const char *password = "xxxxxx";
 
 String goDirection = "STOP";
 String oldDirection = "STOP";
