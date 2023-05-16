@@ -21,7 +21,7 @@
 #include <Pozyx.h>
 #include <Pozyx_definitions.h>
 #include <Wire.h>
-#include <String.h>
+// #include <String.h>
 
 sensor_raw_t sensor_raw;
 
@@ -459,7 +459,7 @@ void gobackward(){
 int readPerimeterFront(){
 
   int periDataFront = analogRead(A0);
-  Serial.println("SensorDataFront: " + String(periDataFront));
-  
+  Serial.print("SensorDataFront: ");
+  Serial.println(periDataFront);
   return periDataFront;
 }
